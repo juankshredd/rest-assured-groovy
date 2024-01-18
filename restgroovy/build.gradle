@@ -21,7 +21,8 @@ test {
     useTestNG(){
         testLogging.showStandardStreams = true
         useDefaultListeners = true
-        //reports.html.enabled = false
+        //outputDirectory = file("")
         parallel="tests"
+        includeGroups 'smoke'
     }
 }
