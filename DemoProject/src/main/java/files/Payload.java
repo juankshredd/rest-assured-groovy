@@ -41,6 +41,16 @@ public class Payload {
             "            \"title\": \"RPA\",\n" +
             "            \"price\": 45,\n" +
             "            \"copies\": 10\n" +
+            "        },\n" +
+            "        {\n" +
+            "            \"title\": \"Docker\",\n" +
+            "            \"price\": 55,\n" +
+            "            \"copies\": 11\n" +
+            "        },\n" +
+            "        {\n" +
+            "            \"title\": \"Java\",\n" +
+            "            \"price\": 90,\n" +
+            "            \"copies\": 5\n" +
             "        }\n" +
             "    ]\n" +
             "}";
