@@ -4,7 +4,7 @@ import files.Payload;
 import files.ReUsableMethods;
 import io.restassured.RestAssured;
 import static io.restassured.RestAssured.*;
-import io.restassured.response.*;
+
 
 import io.restassured.path.json.JsonPath;
 import org.testng.annotations.DataProvider;
@@ -26,6 +26,6 @@ public class DynamicJson {
 
     @DataProvider(name="booksData")
     public Object[][] getData(){
-        return new Object[][] {{"oghvt", "8981"},{"uiodsh", "5956"},{"mbbsa", "0203"}};
+        return new Object[][] {{"oghvt", "8981"},{"uiodsh", "5956"},{"mbbsa", "0203"}, {"holi", "0123"}};
     }
 }

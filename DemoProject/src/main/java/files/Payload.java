@@ -66,4 +66,14 @@ public class Payload {
             "}\n";
         return payload;
     }
+
+    public static String updatePlace(String placeId, String newAddress){
+        String payload = "{\n" +
+            "    \"place_id\": \""+placeId+"\",\n" +
+            "    \"address\": \""+ newAddress+ "\",\n" +
+            "    \"phone_number\": \"(555)33322211\",\n" +
+            "    \"key\": \"qaclick123\"\n" +
+            "}";
+        return payload;
+    }
 }
